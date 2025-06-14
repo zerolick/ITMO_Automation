@@ -3,3 +3,15 @@ def test_passing():
 
 def test_fail():
     assert 'test' == 'testing'
+
+def test_not():
+    a = 'test'
+    b = 'testing'
+    assert a != b
+
+def test_list():
+    x = ['a', 'b', 'c']
+    y = [1, 2, 3]
+
+    assert not x == y
+    assert x != y
