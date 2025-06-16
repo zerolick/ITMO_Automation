@@ -32,5 +32,3 @@ def login_saucedemo(username_value, password_value):
         # Закрываем браузер
         driver.quit()
 
-# Пример вызова функции
-# login_saucedemo("standard_user", "secret_sauce")
